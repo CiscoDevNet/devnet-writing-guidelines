@@ -1,0 +1,24 @@
+{
+  "labId": "00-basic-02-basic_template",
+  "title": "Put Your Lab Title Here",
+  "slug": "Provide a brief lab description here.",
+  "time": 15,
+  "byod": true,
+  "files": [
+    {"title": "1.md"},
+    {"title": "2.md"}    
+  ],
+  "tags": [
+	{"title": "DevNet"}
+  ],
+  "related": [
+    {
+      "labId": "01-intro-02-overview-of-modules",
+	  "title": "Overview of Modules in This Track"
+    }
+  ],
+  "authors": [
+      {"name": "Armen Martirosyan", "email": "armartir@cisco.com"}
+  ],
+  "active": true
+}
