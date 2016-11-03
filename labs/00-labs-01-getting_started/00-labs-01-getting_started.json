@@ -1,7 +1,7 @@
 {
   "labId": "00-labs-01-getting_started",
   "title": "Getting Started with Writing Learning Labs",
-  "slug": "Learn about how to write DevNet learning labs.",
+  "slug": "Learn how to write DevNet learning labs.",
   "time": 45,
   "byod": true,
   "files": [
@@ -14,13 +14,12 @@
 	{"title": "7.md"}
   ],
   "tags": [
-	{"title": "DevNet"},
-	{"title": "Beginner"}
+	{"title": "DevNet Labs Template"}	
   ],
   "related": [
-    {      
-	  "labId": "01-intro-02-overview-of-modules",
-	  "title": "Overview of Modules in This Track"
+    {    
+		"labId": "00-basic-02-basic_template",
+		"title": "Basic Lab Template",	
     }
   ],      
   "authors": [

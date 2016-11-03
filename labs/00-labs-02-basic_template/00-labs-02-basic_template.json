@@ -1,7 +1,7 @@
 {
   "labId": "00-basic-02-basic_template",
-  "title": "Put Your Lab Title Here",
-  "slug": "Provide a brief lab description here.",
+  "title": "Basic Lab Template",
+  "slug": "Use this basic template to write DevNet learning labs.",
   "time": 15,
   "byod": true,
   "files": [
@@ -9,12 +9,12 @@
     {"title": "2.md"}    
   ],
   "tags": [
-	{"title": "DevNet"}
+	{"title": "DevNet Labs Template"}
   ],
   "related": [
     {
-      "labId": "01-intro-02-overview-of-modules",
-	  "title": "Overview of Modules in This Track"
+	"labId": "00-labs-01-getting_started",
+	"title": "Getting Started with Writing Learning Labs"
     }
   ],
   "authors": [
