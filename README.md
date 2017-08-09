@@ -1,16 +1,27 @@
 # devnet-guidelines
-Instructions and guidelines for DevNet lab creation and beyond
 
-These instructional labs and templates should only be published to and accessed from the Staged environment.  They should not be published to production.
+Instructions and guidelines on how to: 
 
+  - create DevNet labs
+  - edit existing labs
+  - publish labs
+  - create and publish code samples
 
-# Python Script
+These instructional labs and templates should only be published to and accessed from the [Staged](https://learninglabs.cisco.com:8867) environment.  They should not be published to production.
 
-`script` folder contains a python script which sets up the directory structure for the user and copies necessary template files.
+# Python Scripts
 
-### How to use it
+The `scripts` folder contains python scripts that might be useful when authoring. The scripts are not required to author labs. 
 
-In terminal, run the script with `python3 start_here_for_LL.py`. The script will create necessary folders and will prompt to enter additional information. Obtained information will be used to populate some values in JSON file.
+For example, the `create_new_lab.py` script creates the directory structure and copies the template files that you need to create a new lab. Alternatively, you could do the same thing manually.
+
+### How to use `create_new_lab.py`
+
+In a terminal window run the script: 
+
+`python3 create_new_lab.py`
+
+The script will create necessary folders and will prompt to enter additional information. Obtained information will be used to populate some values in JSON file.
 
 ```
 How would you like to name the root directory? 00-lab-01
@@ -39,4 +50,4 @@ The folder structure has been successfully created.
 
 # Recommended Tools
 
-Check the [wiki](https://github.com/CiscoDevNet/devnet-guidelines/wiki/Tools-to-Write-Learning-Labs) section for recommend tools.
+Check the [wiki](https://github.com/CiscoDevNet/devnet-guidelines/wiki/Tools-to-Write-Learning-Labs) section for recommended tools.
