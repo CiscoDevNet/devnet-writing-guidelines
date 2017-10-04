@@ -1,13 +1,17 @@
-# devnet-guidelines
+# DevNet Writing Guidelines (Public)
 
-Instructions and guidelines on how to: 
+Welcome to the guidelines on DevNet writing processes and standards. 
 
-  - create DevNet labs
-  - edit existing labs
-  - publish labs
-  - create and publish code samples
+This repo contains guidelines on creating labs, code samples, slides and setting up sandboxes.
 
-These instructional labs and templates should only be published to and accessed from the [Staged](https://learninglabs.cisco.com:8867) environment.  They should not be published to production.
+## Learning Lab Templates
+
+The learning lab templates and code samples templates should only be published to and accessed from the [Staged](https://learninglabs.cisco.com:8867) environment.  They should not be published to production.
+
+# Code Conventions
+
+See the [wiki](CiscoDevNet/devnet-writing-guidelines/wiki) for the style guide on DevNet coding conventions.
+
 
 # Python Scripts
 
@@ -18,4 +22,4 @@ For example, the `create_new_lab.py` script creates the directory structure and 
 
 # Recommended Tools
 
-Check the [wiki](https://github.com/CiscoDevNet/devnet-guidelines/wiki/Tools-to-Write-Learning-Labs) section for recommended tools.
+Check the [wiki](https://github.com/CiscoDevNet/devnet-writing-guidelines/wiki/Tools-to-Write-Learning-Labs) section for recommended tools.
