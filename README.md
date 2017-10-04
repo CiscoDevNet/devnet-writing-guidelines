@@ -1,8 +1,6 @@
 # DevNet Writing Guidelines (Public)
 
-Welcome to the guidelines on DevNet writing processes and standards. 
-
-This repo contains guidelines on creating labs, code samples, slides and setting up sandboxes.
+Welcome to the DevNet Writing Guidelines. This repo contains guidelines on creating labs, code samples, slides and setting up sandboxes.
 
 ## Learning Lab Templates
 
