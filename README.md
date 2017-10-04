@@ -8,7 +8,7 @@ The learning lab templates and code samples templates should only be published t
 
 # Code Conventions
 
-See the [wiki](https://github.com/CiscoDevNet/devnet-writing-guidelines/wiki)for the style guide on DevNet coding conventions.
+See the [wiki](https://github.com/CiscoDevNet/devnet-writing-guidelines/wiki) for the style guide on DevNet coding conventions.
 
 
 # Python Scripts
