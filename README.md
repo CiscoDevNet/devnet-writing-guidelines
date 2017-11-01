@@ -4,12 +4,12 @@ Welcome to the DevNet Writing Guidelines. This repo contains guidelines on creat
 
 <b>TOC</b><br>
 
-> Learning Labs<br>
-    How do I author a learning lab?<br>
->    Templates<br>
-> Code Conventions<br>
-> Author Scripts<br>
- Recommended Tools<br>
+> [Learning Labs](#learning-labs)<br>
+    [How do I author a learning lab?](#learning-labs)<br>
+>   [Templates](#learning-labs)<br>
+> [Code Conventions](#learning-labs)<br>
+> [Author Scripts](#learning-labs)<br>
+> [Recommended Tools](#learning-labs)<br>
 
 ## Learning Labs
 
