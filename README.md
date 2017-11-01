@@ -2,32 +2,52 @@
 
 Welcome to the DevNet Writing Guidelines. This repo contains guidelines on creating labs, code samples, slides and setting up sandboxes.
 
+<b>TOC</b><br>
+
+> Learning Labs<br>
+    How do I author a learning lab?<br>
+>    Templates<br>
+> Code Conventions<br>
+> Author Scripts<br>
+ Recommended Tools<br>
+
 ## Learning Labs
 
+The source markdown for all of DevNet's learning labs are stored in the repos of the [CiscoDevNet](https://github.com/CiscoDevNet) organization. If you want to create and publish a lab on the DevNet site, you must create the lab with a certain directory structure, and place it in a repo within the [CiscoDevNet](https://github.com/CiscoDevNet) organization.
 
 ### How do I author a learning lab?
 
-  1. Read through [How To Create A New Lab](https://github.com/CiscoDevNet/devnet-writing-guidelines/wiki/How-To-Create-A-New-Lab)
-  1. Copy the lab template.
-  1. Create a repo or add the lab to an existing repo.
-  1. Add a card to the Leankit board
+See the wiki page: [How To Create A New Lab](https://github.com/CiscoDevNet/devnet-writing-guidelines/wiki/How-To-Create-A-New-Lab)
 
 ### Templates
 
-The learning lab templates and code samples templates should only be published to and accessed from the [Staged](https://learninglabs.cisco.com:8867) environment.  They should not be published to production.
+There are two kinds of templates: one for labs and one for sample code. 
 
-# Code Conventions
+#### Lab template
+
+The learning lab template is stored in this repo here:
+
+> https://github.com/CiscoDevNet/devnet-writing-guidelines/tree/master/labs
+
+
+#### Sample Code template
+
+The template for code samples is in this repo here:
+
+> 
+
+## Code Conventions
 
 See the [wiki](https://github.com/CiscoDevNet/devnet-writing-guidelines/wiki) for the style guide on DevNet coding conventions.
 
 
-# Python Scripts
+## Author Scripts
 
-The `scripts` folder contains python scripts that might be useful when authoring. The scripts are not required to author labs. 
+The `scripts` folder contains python scripts that might be useful when authoring. You do not have to use these scripts to author labs. They are just helpful tools that other authors have created.
 
-For example, the `create_new_lab.py` script creates the directory structure and copies the template files that you need to create a new lab. Alternatively, you could do the same thing manually.
+For example, the `create_new_lab.py` script creates a directory structure and copies the template used to create a new lab. You could do the same thing manually.
 
 
-# Recommended Tools
+## Recommended Tools
 
 Check the [wiki](https://github.com/CiscoDevNet/devnet-writing-guidelines/wiki/Tools-to-Write-Learning-Labs) section for recommended tools.
