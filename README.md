@@ -2,7 +2,7 @@
 
 Welcome to the DevNet Writing Guidelines. This repo contains guidelines on creating labs, code samples, slides and setting up sandboxes.
 
-<b>TOC (this page)</b><br>
+<b>On this page</b><br>
 
 > [Learning Labs](#learning-labs)<br>
     [How do I author a learning lab?](#learning-labs)<br>
@@ -13,7 +13,9 @@ Welcome to the DevNet Writing Guidelines. This repo contains guidelines on creat
 
 ## Learning Labs
 
-The source markdown for all of DevNet's learning labs are stored in the repos of the [CiscoDevNet](https://github.com/CiscoDevNet) organization. If you want to create and publish a lab on the DevNet site, you must create the lab with a certain directory structure, and place it in a repo within the [CiscoDevNet](https://github.com/CiscoDevNet) organization.
+The source markdown for all of DevNet's learning labs are stored in the repos of the [CiscoDevNet](https://github.com/CiscoDevNet) organization. 
+
+If you want to create and publish a lab on the DevNet site, you must create the lab within a certain directory structure, create a JSON file, and commit the files in a repo within the [CiscoDevNet](https://github.com/CiscoDevNet) organization. The next section explains how to do that. 
 
 ### How do I author a learning lab?
 
