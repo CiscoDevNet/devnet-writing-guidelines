@@ -2,7 +2,17 @@
 
 Welcome to the DevNet Writing Guidelines. This repo contains guidelines on creating labs, code samples, slides and setting up sandboxes.
 
-## Learning Lab Templates
+## Learning Labs
+
+
+### How do I author a learning lab?
+
+  1. Read through [How To Create A New Lab](https://github.com/CiscoDevNet/devnet-writing-guidelines/wiki/How-To-Create-A-New-Lab)
+  1. Copy the lab template.
+  1. Create a repo or add the lab to an existing repo.
+  1. Add a card to the Leankit board
+
+### Templates
 
 The learning lab templates and code samples templates should only be published to and accessed from the [Staged](https://learninglabs.cisco.com:8867) environment.  They should not be published to production.
 
