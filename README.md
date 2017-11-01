@@ -6,10 +6,10 @@ Welcome to the DevNet Writing Guidelines. This repo contains guidelines on creat
 
 > [Learning Labs](#learning-labs)<br>
     [How do I author a learning lab?](#learning-labs)<br>
->   [Templates](#learning-labs)<br>
-> [Code Conventions](#learning-labs)<br>
-> [Author Scripts](#learning-labs)<br>
-> [Recommended Tools](#learning-labs)<br>
+>   [Templates](#templates)<br>
+> [Code Conventions](#code-conventions)<br>
+> [Author Scripts](##author-scripts)<br>
+> [Recommended Tools](##recommended-tools)<br>
 
 ## Learning Labs
 
