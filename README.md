@@ -2,7 +2,7 @@
 
 Welcome to the DevNet Writing Guidelines. This repo contains guidelines on creating labs, code samples, slides and setting up sandboxes.
 
-<b>TOC</b><br>
+<b>TOC (this page)</b><br>
 
 > [Learning Labs](#learning-labs)<br>
     [How do I author a learning lab?](#learning-labs)<br>
