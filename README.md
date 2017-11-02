@@ -17,7 +17,7 @@ The topics below are some of the topics of most interest to newbies.  For more t
 
 The source markdown for all of DevNet's learning labs are stored in the repos of the [CiscoDevNet](https://github.com/CiscoDevNet) organization. 
 
-If you want to create and publish a lab on the DevNet site, you must create the lab within a certain directory structure, create a JSON file, and commit the files in a repo within the [CiscoDevNet](https://github.com/CiscoDevNet) organization. The next section explains how to do that. 
+If you want to create and publish a lab on the DevNet site, you must commit the lab and its associated files to a repo within the [CiscoDevNet](https://github.com/CiscoDevNet) organization.  The lab's markdown, images, JSON metadata, etc must exist in a certain directory structure.  The next section explains how to do that. 
 
 ### How do I author a learning lab?
 
@@ -29,14 +29,14 @@ There are two kinds of templates: one for labs and one for sample code.
 
 #### Lab template
 
-The learning lab template is stored in this repo here:
+The learning lab template is stored in the following directory:
 
 > https://github.com/CiscoDevNet/devnet-writing-guidelines/tree/master/labs
 
 
 #### Sample Code template
 
-The template for code samples is in this repo here:
+The template for code samples is here:
 
 > https://github.com/CiscoDevNet/devnet-writing-guidelines/tree/master/code-samples
 
