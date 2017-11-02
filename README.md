@@ -4,7 +4,7 @@ Welcome to the DevNet Writing Guidelines.
 
 This repo contains DevNet's guidelines on creating labs, code samples, slides and setting up sandboxes for labs. This page contains some of the most common topics of interest to newbies.
 
-For more extensive guidelines see this repo's [wiki].
+For more extensive guidelines see this repo's [wiki](https://github.com/CiscoDevNet/devnet-writing-guidelines/wiki).
 
 <b>On this page</b><br>
 
