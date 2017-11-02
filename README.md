@@ -40,7 +40,7 @@ The learning lab template is stored in this repo here:
 
 The template for code samples is in this repo here:
 
-> 
+> https://github.com/CiscoDevNet/devnet-writing-guidelines/tree/master/code-samples
 
 ## Code Conventions
 
