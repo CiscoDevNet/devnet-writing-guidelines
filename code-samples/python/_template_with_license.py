@@ -1,3 +1,14 @@
+"""One-line summary of your script.
+
+Multi-line description of your script (make sure you include the copyright and
+license notice).
+
+Script Dependencies:
+    requests
+
+Depencency Installation:
+    $ pip install requests
+
 Copyright (c) 2017, Cisco Systems, Inc. All rights reserved.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -17,16 +28,29 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+"""
 
-# standard library imports
+
+# Standard library imports
+import json
+
+# Third-party imports
 import requests
 
-# Define the API server root as a variable
-url = 'http://server:8081/api/v0/host'
+# Local application/library-specific imports
 
-# Define variable to store the results of a request
-response = requests.get(url)
 
-# Output the JSON text of the reponse
-print response.text
+# Define the API server root as a CONSTANT
+URL = 'http://server:8081/api/v0/host'
 
+# Define a variable to store the response to the request
+response = requests.get(URL)
+
+# Verify that the request was successful
+response.raise_for_status()
+
+# Parse the JSON data
+json_data = response.json()
+
+# Print the JSON data using a "pretty print" format
+print(json.dumps(json_data, indent=4))
