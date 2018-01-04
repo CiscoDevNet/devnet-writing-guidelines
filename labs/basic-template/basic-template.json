@@ -5,8 +5,10 @@
   "time": 15,
   "byod": true,
   "files": [
-    {"title": "1.md"},
-    {"title": "2.md"}
+    {"title": "Step 1. Lorem Ipsum Dolor",
+     "file":"1.md"},
+    {"title": "Step 2. The Next Step Title",
+     "file": "2.md"}
   ],
   "tags": [
 	{"title": "DevNet Labs Template"}
