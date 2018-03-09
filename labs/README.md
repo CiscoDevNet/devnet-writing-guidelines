@@ -13,33 +13,33 @@ The goal of these learning labs is to ensure a 'hands-on' learning approach rath
 ## About these Learning Labs
 
 For your repository, answer these questions: 
-* What does this set of learning lab do?
-* Why is this set of learning lab useful?
+* What does this set of learning labs do?
+* Why is this set of learning labs useful?
 * How do I get started?
-* Where can I get more help, if I need it?
+* Where can I get more help?
 
 ## Contributing
 
-Note that contributions to these learning modules are for public consumption, so you must ensure you have the rights to provide any contributed content.
+These learning modules are for public consumption, so you must ensure that you have the rights to any content that you contribute.
 
-Write your content in Markdown, and your wording and syntax is reviewed according to the [Cisco Style Guide](http://www-author.cisco.com/c/en/us/td/docs/general/style/guide/Latest/stylegd.html). (Link available on Cisco VPN only.)
+Write your content in Markdown. DevNet staff reviews content according to the [Cisco Style Guide](http://www-author.cisco.com/c/en/us/td/docs/general/style/guide/Latest/stylegd.html). (Link available on Cisco VPN only.)
 
 #### Publishing Requirements
 
-To create and publish a new lab, you must:
-- Add a new folder under labs
-- Create a JSON file with the same name as the labs/folder name
-- Create markdown files named 1.md, 2.md, and so on, and refer to those files in the JSON file
-- Ensure the JSON file contains page titles in addition to file references
-- Send a pull request, then get the files commited and merged to `master` by a DevNet reviewer
+To create and publish a new lab, take the following steps:
+- Add a new folder under `labs`.
+- Create a JSON file with the same name as the `labs/`_folder_ name.
+- Create markdown files named 1.md, 2.md, and so on; refer to those files in the `labs/`_folder_ JSON file.
+- Ensure that the JSON file contains appropriate page titles and file references.
+- Send a pull request to get the files commited and merged to `master` by a DevNet reviewer.
 
 A DevNet reviewer then creates a release on the repository with the latest `master` and publishes through the admin interface.
 
 #### Editors
 
-You can write Markdown in a plain text editor but there are many desktop and web-based options which allow you to write and preview your work at the same time. We recommend Visual Studio Code [Download](https://code.visualstudio.com/) for a few reasons:
+You can write Markdown in a plain text editor, but there are many desktop and Web-based options that allow you to write and preview your work at the same time. We recommend Visual Studio Code [Download](https://code.visualstudio.com/) for several reasons:
 - Lightweight environment for coding (or writing Markdown)
-- Available on MAC, Linux or Windows
+- Available on Mac OS, Linux or Windows
 - Github Client integration
 - Great Markdown preview features native in the editor
 - Intuitive operation and structure
@@ -48,7 +48,7 @@ You can validate a JSON file by using the [online formatter and validator](https
 
 ## Getting Involved
 
-* If you'd like to make contributions, refer to [contributing.md](contributing.md).
-* If you're interested in creating a Cisco DevNet Learning Lab, please contact a DevNet administrator for guidance.
+* If you'd like to contribute to an existing lab, refer to [contributing.md](contributing.md).
+* If you're interested in creating a new Cisco DevNet Learning Lab, please contact a DevNet administrator for guidance.
 
 
