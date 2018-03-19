@@ -1,29 +1,38 @@
 {
   "labId": "00-labs-01-getting_started",
-  "title": "Getting Started with Writing Learning Labs",
-  "slug": "Learn how to write DevNet learning labs.",
+  "title": "Getting Started Writing Learning Labs",
+  "slug": "Learn about the learning lab templates available for your use.",
   "time": 45,
   "byod": true,
   "files": [
-    {"title": "1.md"},
-    {"title": "2.md"},
-    {"title": "3.md"},
-    {"title": "4.md"},
-	{"title": "5.md"},
-	{"title": "6.md"},
-	{"title": "7.md"},
-	{"title": "8.md"},
-	{"title": "9.md"}
+    {"title": "Getting Started with this technical topic",
+      "file": "1.md"},
+    {"title": "Step 2: Setting up Your Working Directory and Files",
+      "file": "2.md"},
+    {"title": "Step 3. Writing Content in Markdown",
+      "file": "3.md"},
+    {"title": "Step 4. The byod.html File: Helping Users to Bring Their own Devices",
+      "file": "4.md"},
+  	{"title": "Step 5. Tie Everything Together with the JSON File",
+      "file": "5.md"},
+  	{"title": "Step 6. Installing and Running the Learning Lab Previewer Tool on Windows 7 Platforms",
+      "file": "6.md"},
+  	{"title": "Step 7. Installing and Running the Learning Lab Previewer Tool on Linux",
+      "file": "7.md"},
+  	{"title": "Step 8. Installing and Running the Learning Lab Previewer Tool in Docker",
+      "file": "8.md"},
+  	{"title": "Step 9. Writing Learning Labs - The Next Step",
+      "file": "9.md"}
   ],
   "tags": [
-	{"title": "DevNet Labs Template"}	
+	{"title": "DevNet Labs Template"}
   ],
   "related": [
-    {    
+    {
 		"labId": "00-basic-02-basic_template",
-		"title": "Basic Lab Template"	
+		"title": "Basic Lab Template"
     }
-  ],      
+  ],
   "authors": [
       {"name": "Armen Martirosyan", "email": "armartir@cisco.com"}
   ],
