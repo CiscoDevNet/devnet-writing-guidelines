@@ -1,8 +1,8 @@
 {
-  "labId": "basic-template",
+  "labId": "teaching-template",
   "title": "Template For A Training Lab",
   "slug": "Use this basic template to write educational content for DevNet Express learning labs.",
-  "time": 15,
+  "time": 30,
   "byod": true,
   "files": [
     {"title": "Why Learn this Topic?",
