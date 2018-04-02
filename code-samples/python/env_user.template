@@ -1,15 +1,16 @@
-"""One-line summary of your script.
+"""Set your Environment Information once, not many times.
 
-Multi-line description of your script (make sure you include the copyright and
-license notice).
+The provided sample code in this repository will reference this file to get the
+needed information about you and your context to complete the labs.  You
+provide this info here once and the scripts in this repository will access it
+as needed by the lab.
 
-Script Dependencies:
-    requests
+TODO: To setup your `env_user.py` copy this file then edit and save your info
 
-Depencency Installation:
-    $ pip install requests
+$ cp env_user.template env_user.py
 
-Copyright (c) 2017, Cisco Systems, Inc. All rights reserved.
+
+Copyright (c) 2018, Cisco Systems, Inc. All rights reserved.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -31,26 +32,9 @@ SOFTWARE.
 """
 
 
-# Standard library imports
-import json
+# User Input
 
-# Third-party imports
-import requests
+SPARK_ACCESS_TOKEN = ""
+SPARK_ROOM_ID = ""
 
-# Local application/library-specific imports
-
-
-# Define the API server root as a CONSTANT
-URL = 'http://server:8081/api/v0/host'
-
-# Define a variable to store the response to the request
-response = requests.get(URL)
-
-# Verify that the request was successful
-response.raise_for_status()
-
-# Parse the JSON data
-json_data = response.json()
-
-# Print the JSON data using a "pretty print" format
-print(json.dumps(json_data, indent=4))
+# End User Input
