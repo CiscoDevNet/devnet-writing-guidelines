@@ -1,0 +1,40 @@
+{
+  "labId": "teaching-template",
+  "title": "Template For A Training Lab",
+  "slug": "Use this basic template to write educational content for DevNet Express learning labs.",
+  "time": 30,
+  "byod": true,
+  "files": [
+    {"title": "Why Learn this Topic?",
+     "file": "1.md"},
+    {"title": "What You Want to Know First",
+     "file": "2.md"},
+    {"title": "About the Lab Environment",
+    "file": "3.md"},
+    {"title": "Topic Basics",
+    "file": "4.md"},
+    {"title": "First Basic Topic (Authentication)",
+    "file": "5.md"},
+    {"title": "Second Basic Topic (Build)",
+    "file": "6.md"},
+    {"title": "First Advanced Topic (Security)",
+    "file": "7.md"},
+    {"title": "Second Advanced Topic (Configuration)",
+    "file": "8.md"},
+    {"title": "What's Next? Practical Applications",
+     "file": "9.md"}
+  ],
+  "tags": [
+	{"title": "DevNet Training Template for Learning Labs"}
+  ],
+  "related": [
+    {
+	"labId": "00-labs-01-getting_started",
+	"title": "Getting Started with Writing Learning Labs"
+    }
+  ],
+  "authors": [
+      {"name": "Hank Preston", "email": "hapreston@cisco.com"}
+  ],
+  "active": true
+}
