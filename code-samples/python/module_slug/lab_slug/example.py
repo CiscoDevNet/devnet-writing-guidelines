@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """One-line summary of your script.
 
 Multi-line description of your script (make sure you include the copyright and
@@ -9,7 +10,8 @@ Script Dependencies:
 Depencency Installation:
     $ pip install requests
 
-Copyright (c) 2017, Cisco Systems, Inc. All rights reserved.
+
+Copyright (c) {{current_year}} Cisco and/or its affiliates.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -31,26 +33,42 @@ SOFTWARE.
 """
 
 
-# Standard library imports
-import json
+import os
+import sys
 
-# Third-party imports
-import requests
-
-# Local application/library-specific imports
+import ciscosparkapi
 
 
-# Define the API server root as a CONSTANT
-URL = 'http://server:8081/api/v0/host'
+# Get the absolute path for the directory where this file is located "here"
+here = os.path.abspath(os.path.dirname(__file__))
 
-# Define a variable to store the response to the request
-response = requests.get(URL)
+# Get the absolute path for the project / repository root
+project_root = os.path.abspath(os.path.join(here, "../.."))
 
-# Verify that the request was successful
-response.raise_for_status()
 
-# Parse the JSON data
-json_data = response.json()
+# Extend the system path to include the project root and import the env files
+sys.path.insert(0, project_root)
+import env_lab      # noqa
+import env_user     # noqa
 
-# Print the JSON data using a "pretty print" format
-print(json.dumps(json_data, indent=4))
+
+spark = ciscosparkapi.CiscoSparkAPI(access_token=env_user.SPARK_ACCESS_TOKEN)
+
+
+print("""
+My Lab Environment:
+    DNA Center Host: {dnac_host}
+    DNA Center Username: {dnac_user}
+    DNA Center Password: {dnac_pass}
+""".format(
+    dnac_host=env_lab.DNA_CENTER["host"],
+    dnac_user=env_lab.DNA_CENTER["username"],
+    dnac_pass=env_lab.DNA_CENTER["password"],
+))
+
+
+print("Oh yeah... I'm also connected to Cisco Spark as:")
+print(spark.people.me())
+
+print("...and I'm posting things to the following Spark Room:")
+print(spark.rooms.get(env_user.SPARK_ROOM_ID))
