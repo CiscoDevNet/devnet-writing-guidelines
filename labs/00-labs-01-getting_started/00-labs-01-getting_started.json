@@ -12,24 +12,20 @@
     {"title": "Step 3. Writing Content in Markdown",
       "file": "3.md"},
     {"title": "Step 4. The byod.html File: Helping Users to Bring Their own Devices",
-      "file": "4.md"},
-  	{"title": "Step 5. Tie Everything Together with the JSON File",
-      "file": "5.md"},
-  	{"title": "Step 6. Installing and Running the Learning Lab Previewer Tool on Windows 7 Platforms",
-      "file": "6.md"},
-  	{"title": "Step 7. Installing and Running the Learning Lab Previewer Tool on Linux",
-      "file": "7.md"},
-  	{"title": "Step 8. Installing and Running the Learning Lab Previewer Tool in Docker",
-      "file": "8.md"},
-  	{"title": "Step 9. Writing Learning Labs - The Next Step",
-      "file": "9.md"}
+     "file": "4.md"},
+    {"title": "Step 5. Tie Everything Together with the JSON File",
+     "file": "5.md"},
+    {"title": "Step 6. Installing and Running a Learning Lab Previewer Tool in Docker",
+     "file": "6.md"},
+    {"title": "Step 7. Writing Learning Labs - The Next Step",
+     "file": "7.md"}
   ],
   "tags": [
 	{"title": "DevNet Labs Template"}
   ],
   "related": [
     {
-		"labId": "basic_template",
+		"labId": "basic-template",
 		"title": "Basic Lab Template"
     }
   ],
