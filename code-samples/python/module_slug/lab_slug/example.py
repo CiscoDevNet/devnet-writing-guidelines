@@ -52,7 +52,7 @@ import env_lab      # noqa
 import env_user     # noqa
 
 
-spark = ciscosparkapi.CiscoSparkAPI(access_token=env_user.SPARK_ACCESS_TOKEN)
+spark = ciscosparkapi.CiscoSparkAPI(access_token=env_user.ACCESS_TOKEN)
 
 
 print("""

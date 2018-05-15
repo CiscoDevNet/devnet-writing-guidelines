@@ -34,7 +34,7 @@ SOFTWARE.
 
 # User Input
 
-SPARK_ACCESS_TOKEN = ""
-SPARK_ROOM_ID = ""
+ACCESS_TOKEN = ""
+ROOM_ID = ""
 
 # End User Input
