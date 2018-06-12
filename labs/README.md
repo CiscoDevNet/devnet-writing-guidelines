@@ -24,7 +24,7 @@ These learning modules are for public consumption, so you must ensure that you h
 
 Write your content in Markdown. DevNet staff reviews content according to the [Cisco Style Guide](http://www-author.cisco.com/c/en/us/td/docs/general/style/guide/Latest/stylegd.html). (Link available on Cisco VPN only.)
 
-#### Publishing Requirements
+#### Publishing requirements
 
 To create and publish a new lab, take the following steps:
 - Add a new folder under `labs`.
