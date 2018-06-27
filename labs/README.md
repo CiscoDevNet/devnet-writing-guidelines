@@ -17,7 +17,6 @@ For your repository, answer these questions:
 * Why is this set of learning labs useful?
 * How do I get started?
 
-Let readers know that they can get more help by putting in this sentence:
 If you need more help, you can reach out to DevNet through one of our [support options](https://developer.cisco.com/site/devnet/support/).
 
 
