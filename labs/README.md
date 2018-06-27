@@ -16,7 +16,9 @@ For your repository, answer these questions:
 * What does this set of learning labs do?
 * Why is this set of learning labs useful?
 * How do I get started?
-* Where can I get more help?
+
+If you need more help, you can reach out to DevNet through one of our [support options](https://developer.cisco.com/site/devnet/support/).
+
 
 ## Contributing
 
@@ -38,11 +40,11 @@ A DevNet reviewer then creates a release on the repository with the latest `mast
 #### Editors
 
 You can write Markdown in a plain text editor, and desktop and Web-based options allow you to write and preview your work at the same time. We recommend Visual Studio Code [Download](https://code.visualstudio.com/) for these reasons:
-- Lightweight environment for coding (or writing Markdown)
-- Available on Mac OS, Linux or Windows
-- Github Client integration
-- Great Markdown preview features native in the editor
-- Intuitive operation and structure
+- Lightweight environment for coding (or writing Markdown).
+- Available on Mac OS, Linux or Windows.
+- Github Client integration.
+- Great Markdown preview features native in the editor.
+- Intuitive operation and structure.
 
 You can validate a JSON file by using the [online formatter and validator](https://jsonformatter.curiousconcept.com).
 
