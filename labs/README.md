@@ -1,4 +1,4 @@
-## Cisco DevNet Learning Labs: template
+## Cisco DevNet Learning Labs: <Name of your lab>
 
 These self-paced interactive tutorials provide instructions for developers to ....
 
@@ -20,13 +20,13 @@ For your repository, answer these questions:
 If you need more help, you can reach out to DevNet through one of our [support options](https://developer.cisco.com/site/devnet/support/).
 
 
-## Contributing
+## Contributor guidelines
 
 These learning modules are for public consumption, so you must ensure that you have the rights to any content that you contribute.
 
 Write your content in Markdown. DevNet staff reviews content according to the [Cisco Style Guide](http://www-author.cisco.com/c/en/us/td/docs/general/style/guide/Latest/stylegd.html). (Link available on Cisco VPN only.)
 
-#### Publishing Requirements
+#### Publishing requirements
 
 To create and publish a new lab, take the following steps:
 - Add a new folder under `labs`.
@@ -41,7 +41,7 @@ A DevNet reviewer then creates a release on the repository with the latest `mast
 
 You can write Markdown in a plain text editor, and desktop and Web-based options allow you to write and preview your work at the same time. We recommend Visual Studio Code [Download](https://code.visualstudio.com/) for these reasons:
 - Lightweight environment for coding (or writing Markdown).
-- Available on Mac OS, Linux or Windows.
+- Available on MacOS, Linux, or Windows.
 - Github Client integration.
 - Great Markdown preview features native in the editor.
 - Intuitive operation and structure.
