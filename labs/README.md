@@ -1,4 +1,4 @@
-## Cisco DevNet Learning Labs: `<Name of your lab>`
+## Cisco DevNet Learning Labs: `<Name of your Module>`
 
 These self-paced interactive tutorials provide instructions for developers to ....
 
