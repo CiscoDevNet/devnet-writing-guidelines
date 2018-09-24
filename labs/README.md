@@ -21,7 +21,7 @@ If you need more help, you can reach out to DevNet through one of our [support o
 
 ## Preview Learning Lab Markdown locally
 
-You can preview how the Markdown renders by using a pre-built Docker image. The `Makefile` in the root of the repository lets you run `make preview` to view the output HTML.
+You can preview how the Markdown renders by using a pre-built Docker image. The `Makefile` in the root of the repository lets you run `make preview` to view the output HTML. Note that this image uses the "older" method of image references rather than the newer relative reference. Also if your files are not named `1.md`, `2.md`, and so on, you will need to manually enter the path to the file name you want to preview.
 
 1. Make sure you have Docker installed locally. If not, [install Docker](https://docs.docker.com/install/) for your operating system.
    ```
