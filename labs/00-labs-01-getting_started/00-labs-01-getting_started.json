@@ -1,27 +1,27 @@
 {
   "labId": "00-labs-01-getting_started",
-  "title": "Getting Started Writing Learning Labs",
-  "slug": "Learn about the learning lab templates available for your use.",
+  "title": "Getting started writing Learning Labs",
+  "slug": "Learn about the Learning Lab templates available for your use.",
   "time": 45,
   "byod": true,
   "files": [
-    {"title": "Getting Started with this technical topic",
+    {"title": "Step 1: Understand the structure of Learning Labs",
       "file": "1.md"},
-    {"title": "Step 2: Setting up Your Working Directory and Files",
+    {"title": "Step 2: Set up your working directory and files",
       "file": "2.md"},
-    {"title": "Step 3. Writing Content in Markdown",
+    {"title": "Step 3: Write content in Markdown",
       "file": "3.md"},
-    {"title": "Step 4. The byod.html File: Helping Users to Bring Their own Devices",
+    {"title": "Step 4: The byod.html file: help users bring their own devices",
      "file": "4.md"},
-    {"title": "Step 5. Tie Everything Together with the JSON File",
+    {"title": "Step 5: Tie everything together with the JSON File",
      "file": "5.md"},
-    {"title": "Step 6. Installing and Running a Learning Lab Previewer Tool in Docker",
+    {"title": "Step 6: Instal and run a Learning Lab Previewer Tool in Docker",
      "file": "6.md"},
-    {"title": "Step 7. Writing Learning Labs - The Next Step",
+    {"title": "Step 7: Writing Learning Labs: next steps",
      "file": "7.md"}
   ],
   "tags": [
-	{"title": "DevNet Labs Template"}
+	{"title": "Templates"}
   ],
   "related": [
     {
@@ -30,7 +30,7 @@
     }
   ],
   "authors": [
-      {"name": "Armen Martirosyan", "email": "armartir@cisco.com"}
+      {"name": "Anne Gentle", "email": "agentle@cisco.com"}
   ],
   "active": true
 }

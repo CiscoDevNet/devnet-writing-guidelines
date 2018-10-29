@@ -46,7 +46,7 @@ Write your content in Markdown. DevNet staff reviews content according to the [C
 To create and publish a new lab, take the following steps:
 - Add a new folder under `labs`.
 - Create a JSON file with the same name as the `labs/`_folder_ name.
-- Create markdown files named 1.md, 2.md, and so on; refer to those files in the `labs/`_folder_ JSON file.
+- Create Markdown files named `1.md`, `2.md`, and so on; refer to those files in the `labs/`_folder_ JSON file.
 - Ensure that the JSON file contains appropriate page titles and file references.
 - Send a pull request to get the files committed and merged to `master` by a DevNet reviewer.
 

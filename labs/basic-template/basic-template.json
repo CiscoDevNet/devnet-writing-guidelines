@@ -5,13 +5,13 @@
   "time": 15,
   "byod": true,
   "files": [
-    {"title": "Step 1. Lorem Ipsum Dolor",
+    {"title": "Step 1: Lorem ipsum dolor",
      "file":"1.md"},
-    {"title": "Step 2. The Next Step Title",
+    {"title": "Step 2: Do the next step",
      "file": "2.md"}
   ],
   "tags": [
-	{"title": "DevNet Labs Template"}
+	{"title": "Template"}
   ],
   "related": [
     {
@@ -20,7 +20,7 @@
     }
   ],
   "authors": [
-      {"name": "Armen Martirosyan", "email": "armartir@cisco.com"}
+      {"name": "Anne Gentle", "email": "agentle@cisco.com"}
   ],
   "active": true
 }
