@@ -5,6 +5,8 @@
   "time": 45,
   "byod": true,
   "files": [
+    {"title": "Introduction",
+      "file": "0-intro.md"},
     {"title": "Step 1: Understand the structure of Learning Labs",
       "file": "1.md"},
     {"title": "Step 2: Set up your working directory and files",
@@ -18,7 +20,9 @@
     {"title": "Step 6: Instal and run a Learning Lab Previewer Tool in Docker",
      "file": "6.md"},
     {"title": "Step 7: Writing Learning Labs: next steps",
-     "file": "7.md"}
+     "file": "7.md"},
+    {"title": "Step 8: Maintaining Learning Labs",
+     "file": "8.md"}
   ],
   "tags": [
 	{"title": "Templates"}
