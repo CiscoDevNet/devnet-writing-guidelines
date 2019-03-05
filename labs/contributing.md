@@ -19,7 +19,7 @@ For private Learning Labs, use the common issue tracker in the [CiscoDevNet/lear
 For DevNet Express events, use these three issue tracker repos based on the content track:
 * https://github.com/CiscoDevNet/devnet-express-dna-issues
 * https://github.com/CiscoDevNet/devnet-express-cc-issues
-* https://github.com/CiscoDevNet/devnet-express-dci-issues
+* https://github.com/CiscoDevNet/devnet-express-dci-issues https://github.com/CiscoDevNet/devnet-express-security-issues
 
 Use the issue tracker to suggest additions, report bugs, and ask questions.
 This is also a great way to connect with the developers of the project and find others interested in this solution.
