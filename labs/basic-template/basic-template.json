@@ -1,12 +1,14 @@
 {
   "labId": "basic-template",
-  "title": "Template For A Lab In DevNet Learning Labs",
+  "title": "Template for a lab in DevNet Learning Labs",
   "slug": "Use this basic template to write DevNet learning labs.",
   "time": 15,
   "byod": true,
   "files": [
+    {"title": "Introduction",
+     "file": "0-intro.md"},
     {"title": "Step 1: Lorem ipsum dolor",
-     "file":"1.md"},
+     "file": " 1.md"},
     {"title": "Step 2: Do the next step",
      "file": "2.md"}
   ],
