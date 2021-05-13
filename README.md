@@ -10,7 +10,6 @@ The topics below are some of the topics of most interest to newcomers.  For more
     [How do I author a learning lab?](#learning-labs)<br>
 >   [Templates](#templates)<br>
 > [Code Conventions](#code-conventions)<br>
-> [Author Scripts](##author-scripts)<br>
 > [Recommended Tools](##recommended-tools)<br>
 
 ## Learning Labs
